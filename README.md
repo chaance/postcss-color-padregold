@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="./padres.png" alt="San Diego Padres Friar Logo" width="151" height="115" align="center" />
+	<img src="./padres.png" alt="San Diego Padres Friar Logo" width="199" height="115" align="center" />
 	<p></p>
 	<h1 align="center">PostCSS PadreGold</h1>
 	<a href="https://www.npmjs.com/package/postcss-color-padregold"><img alt="npm version" src="https://img.shields.io/npm/v/postcss-color-padregold.svg" height="20"></a>
