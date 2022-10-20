@@ -1,0 +1,15 @@
+{
+	"include": ["./src/**/*"],
+	"exclude": ["dist"],
+	"compilerOptions": {
+		"outDir": "dist",
+		"declarationDir": ".",
+		"moduleResolution": "node",
+		"allowJs": false,
+		"target": "es2020",
+		"lib": ["es2020"],
+		"allowSyntheticDefaultImports": true,
+		"module": "es6",
+		"declaration": true
+	}
+}

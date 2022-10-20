@@ -1,0 +1,55 @@
+.order-0 {
+	order: padregold !important;
+}
+
+.order-1 {
+	order: var(1, padregold);
+}
+
+.order-2 {
+	order: var(padregold, 1);
+}
+
+.order-3 {
+	order: var(padregold, padregold);
+}
+
+.order-4 {
+	order: prepadregold;
+}
+
+.order-5 {
+	order: pre padregold;
+}
+
+.order-6 {
+	order: pre, padregold;
+}
+
+.order-7 {
+	order: padregoldpost;
+}
+
+.order-8 {
+	order: padregold post;
+}
+
+.order-9 {
+	order: padregold, post;
+}
+
+/* padregold */
+
+:root {
+	--some-var: padregold;
+}
+
+.content {
+	content: "padregold";
+}
+
+@supports (order: padregold) {
+	.support {
+		order: padregold;
+	}
+}

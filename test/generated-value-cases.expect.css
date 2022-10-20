@@ -1,0 +1,55 @@
+.order-0 {
+	order: #ffc425 !important;
+}
+
+.order-1 {
+	order: var(1, #ffc425);
+}
+
+.order-2 {
+	order: var(#ffc425, 1);
+}
+
+.order-3 {
+	order: var(#ffc425, #ffc425);
+}
+
+.order-4 {
+	order: prepadregold;
+}
+
+.order-5 {
+	order: pre #ffc425;
+}
+
+.order-6 {
+	order: pre, #ffc425;
+}
+
+.order-7 {
+	order: padregoldpost;
+}
+
+.order-8 {
+	order: #ffc425 post;
+}
+
+.order-9 {
+	order: #ffc425, post;
+}
+
+/* padregold */
+
+:root {
+	--some-var: #ffc425;
+}
+
+.content {
+	content: "padregold";
+}
+
+@supports (order: padregold) {
+	.support {
+		order: #ffc425;
+	}
+}
